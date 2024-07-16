@@ -12,10 +12,10 @@ This assignment is mainly to get you used to our assignment workflow.
 
 5. Define the following terms:
 
-    - **git**:
-    - **GitHub**:
-    - **repository**:
-    - **directory**:
-    - **branch**:
+   - **git**:
+   - **GitHub**:
+   - **repository**:
+   - **directory**:
+   - **branch**:
 
 6. Where do you typically find assignment instructions?
