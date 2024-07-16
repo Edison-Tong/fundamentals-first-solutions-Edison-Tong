@@ -37,3 +37,10 @@ if (currentSeason.toLowerCase() === "summer") {
 } else {
     console.log("Please enter a valid season next time.");
 }
+
+let dayOfTheWeek = prompt("What day of the week is it?");
+if (dayOfTheWeek.toLowerCase() === "saturday" || "sunday") {
+    console.log("Have a good weekend!");
+} else {
+    console.log("It's a weekday!");
+}
