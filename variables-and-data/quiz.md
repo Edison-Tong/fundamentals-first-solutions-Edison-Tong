@@ -41,7 +41,7 @@ let data = "Howdy";
 
 ```html
 <div>
-    <p>This is text content</p>
+  <p>This is text content</p>
 </div>
 ```
 
@@ -49,6 +49,6 @@ let data = "Howdy";
 
 ```css
 div {
-    width: 100%;
+  width: 100%;
 }
 ```
