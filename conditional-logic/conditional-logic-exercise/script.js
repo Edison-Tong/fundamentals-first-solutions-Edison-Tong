@@ -2,45 +2,45 @@
 let age = 25;
 let isAdult;
 if (age < 18) {
-    isAdult = false;
+  isAdult = false;
 } else {
-    isAdult = true;
+  isAdult = true;
 }
 console.log(isAdult);
 
 let score = 94;
 let grade = null;
 if (score < 60) {
-    grade = "F";
+  grade = "F";
 } else if (score < 70) {
-    grade = "D";
+  grade = "D";
 } else if (score < 80) {
-    grade = "C";
+  grade = "C";
 } else if (score < 90) {
-    grade = "B";
+  grade = "B";
 } else if (score < 100) {
-    grade = "A";
+  grade = "A";
 } else {
-    grade = "A++";
+  grade = "A++";
 }
 console.log(score + ":" + grade);
 
 let currentSeason = prompt("What season is it currently?");
 if (currentSeason.toLowerCase() === "summer") {
-    console.log("It's hot today.");
+  console.log("It's hot today.");
 } else if (currentSeason.toLowerCase() === "spring") {
-    console.log("The flowers are blooming.");
+  console.log("The flowers are blooming.");
 } else if (currentSeason.toLowerCase() === "fall") {
-    console.log("The leaves are changing colors.");
+  console.log("The leaves are changing colors.");
 } else if (currentSeason.toLowerCase() === "winter") {
-    console.log("It's cold today.");
+  console.log("It's cold today.");
 } else {
-    console.log("Please enter a valid season next time.");
+  console.log("Please enter a valid season next time.");
 }
 
 let dayOfTheWeek = prompt("What day of the week is it?");
-if (dayOfTheWeek.toLowerCase() === "saturday" || "sunday") {
-    console.log("Have a good weekend!");
+if (dayOfTheWeek.toLowerCase() === "saturday" || dayOfTheWeek.toLowerCase() === "sunday") {
+  console.log("Have a good weekend!");
 } else {
-    console.log("It's a weekday!");
+  console.log("It's a weekday!");
 }
