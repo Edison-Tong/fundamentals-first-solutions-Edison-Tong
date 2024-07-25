@@ -1,7 +1,7 @@
 # Functions Quiz
 
 1. Explain what D.R.Y. code is.
-   Stand for DO NOT REPEAT meaning: make your code consise
+   Stand for DON'T REPEAT YOURSELF, meaning: make your code consise
 2. What is a function in JavaScript?
    a function is a set series of commands saved to a key word that can be called on in your code to exicute its lines of code
 3. Explain the difference between a **parameter** and an **argument**.
