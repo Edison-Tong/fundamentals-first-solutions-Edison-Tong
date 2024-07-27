@@ -1,10 +1,17 @@
 # Variable Scope Quiz
 
-1. In JavaScript, which is a variable's scope determined?
+1. In JavaScript, where is a variable's scope determined?
+
+   it is determined where the variable is declared as opposed to when it is assigned
 
 2. Explain the difference between **global scope** and **block scope**.
 
+   variables with global scope are accessible anywhere in the code.
+   Variables with block scope are only accessible within the block of code that they are declared
+
 3. When JavaScript attempts to reference a variable that does not exist or is outside of its scope, what error is thrown?
+
+   you will get a "ReferenceError"
 
 ## Complete the following problems below having to do with variable scope
 
@@ -23,7 +30,11 @@ Predict the output of the following code:
 
 1. What will `consolelog(message)` inside the `if` statement print?
 
+   Block Scope
+
 2. What will `consolelog(message)` outside the `if` statement print?
+
+   Global Scope
 
 Run your code and inspect the results. Fix your answers if necessary.
 
@@ -52,16 +63,16 @@ Consider the following code snippet:
 Without actually running this code yet, type below what you think will be logged to the console for each of the 5 labels above:
 
 1. What will the `console.log` at [1] print?
-
+   Hi
 2. What will the `console.log` at [2] print?
-
+   Bark
 3. What will the `console.log` at [3] print?
-
+   Chirp
 4. What will the `console.log` at [4] print?
-
+   Hi
 5. What will the `console.log` at [5] print?
-
-After answering the questions above, copy and run the code in the `example` directory and take note of the output. Which ones (if any) did you get wrong?
+   Reference error
+   After answering the questions above, copy and run the code in the `example` directory and take note of the output. Which ones (if any) did you get wrong?
 
 ### Problem 3: Real-World Scenario
 
@@ -83,12 +94,12 @@ Consider the following code snippet:
     console.log(name); // [3]
 
 1. What will the `console.log` at [1] print?
-
+   Charlie
 2. What will the `console.log` at [2] print?
-
+   Bob
 3. What will the `console.log` at [3] print?
-
-After answering the questions above, copy and run the code in the `example` directory and take note of the output.
+   Alice
+   After answering the questions above, copy and run the code in the `example` directory and take note of the output.
 
 > **Note:** Although it's technically _possible_ to name your variables like this, it's certainly not recommended. This code was written this way for the purpose of the exercise, but always try to avoid using the same variable names in your actual programs.
 
@@ -106,7 +117,7 @@ let data = "Howdy";
 
 ```html
 <div>
-    <p>This is text content</p>
+  <p>This is text content</p>
 </div>
 ```
 
@@ -114,6 +125,6 @@ let data = "Howdy";
 
 ```css
 div {
-    width: 100%;
+  width: 100%;
 }
 ```
