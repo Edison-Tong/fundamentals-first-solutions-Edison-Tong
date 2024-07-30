@@ -32,12 +32,12 @@ calculator(681, 3, division);
 
 function forEach(array, func) {
   for (let i = 0; i < array.length; i++) {
-    console.log(func(array[i]));
+    func(array[i]);
   }
 }
 
 let yellIt = function (string) {
-  return string.toUpperCase();
+  console.log(string.toUpperCase());
 };
 let words = ["what", "am", "I", "doing"];
 
