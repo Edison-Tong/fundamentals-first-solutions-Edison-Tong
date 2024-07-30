@@ -19,7 +19,6 @@ let division = function (num1, num2) {
 };
 
 // Define the calculator function here:
-
 function calculator(num1, num2, operation) {
   console.log(operation(num1, num2));
 }
