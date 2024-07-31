@@ -1,0 +1,57 @@
+* {
+    font-family: Tahoma;
+}
+
+body {
+    background-color: rgb(238, 238, 240);
+}
+
+h1 {
+    border: black solid 1px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+p::first-letter {
+    font-size: 150%;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: darkviolet;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+#hobbies {
+    color: yellow;
+}
+
+#movies {
+    color: red;
+}
+
+#mood {
+    color: blue;
+}
+
+#fact {
+    color: green;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.mood {
+    font-weight: bold;
+}
