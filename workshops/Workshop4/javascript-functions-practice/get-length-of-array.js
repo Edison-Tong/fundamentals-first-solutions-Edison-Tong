@@ -3,4 +3,6 @@
  * @param {[*]} array
  * @returns the length of the input array
  */
-function getLengthOfArray(array) {}
+function getLengthOfArray(array) {
+    return array.length;
+}

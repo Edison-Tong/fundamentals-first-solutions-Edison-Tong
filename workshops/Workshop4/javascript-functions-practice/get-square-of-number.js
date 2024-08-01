@@ -3,4 +3,6 @@
  * @param {number} number
  * @returns number squared
  */
-function getSquareOfNumber(number) {}
+function getSquareOfNumber(number) {
+    return number * number;
+}

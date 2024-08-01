@@ -3,4 +3,6 @@
  *
  * @param {string} string
  */
-function getSecondCharacter(string) {}
+function getSecondCharacter(string) {
+    return string.split("")[1];
+}

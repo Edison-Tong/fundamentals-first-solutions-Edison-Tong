@@ -4,4 +4,6 @@
  * @param {object} person
  * @returns string representing the full name of the person
  */
-function getFullNameOfPerson(person) {}
+function getFullNameOfPerson(person) {
+    return `${person.firstName} ${person.lastName}`;
+}

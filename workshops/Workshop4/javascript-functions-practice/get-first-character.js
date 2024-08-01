@@ -3,4 +3,6 @@
  *
  * @param {string} string
  */
-function getFirstCharacter(string) {}
+function getFirstCharacter(string) {
+    return string.split("")[0];
+}

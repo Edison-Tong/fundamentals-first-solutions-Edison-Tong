@@ -7,4 +7,6 @@
  * @param {number} height
  * @returns - number representing the area
  */
-function getRightTriangleArea(base, height) {}
+function getRightTriangleArea(base, height) {
+    return (1 / 2) * base * height;
+}

@@ -6,4 +6,6 @@
  *
  * For example: Ada Lovelace => "AL"
  */
-function getInitialsOfPerson(person) {}
+function getInitialsOfPerson(person) {
+    return person.firstName.split("")[0] + person.lastName.split("")[0];
+}

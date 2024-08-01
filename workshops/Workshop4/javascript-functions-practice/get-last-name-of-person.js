@@ -4,4 +4,6 @@
  * @param {object} person
  * @returns string representing the last name of the person
  */
-function getLastNameOfPerson(person) {}
+function getLastNameOfPerson(person) {
+    return person.lastName;
+}

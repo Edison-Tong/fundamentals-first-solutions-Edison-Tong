@@ -4,4 +4,6 @@
  * @param {number} y
  * @returns
  */
-function getSumOfSquares(x, y) {}
+function getSumOfSquares(x, y) {
+    return x * x + y * y;
+}

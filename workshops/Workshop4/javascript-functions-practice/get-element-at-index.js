@@ -4,4 +4,6 @@
  * @param {[number]} array
  * @param {number} index
  */
-function getElementAtIndex(array, index) {}
+function getElementAtIndex(array, index) {
+    return array[index];
+}

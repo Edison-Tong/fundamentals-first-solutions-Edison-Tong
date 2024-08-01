@@ -4,4 +4,6 @@
  * @param {[*]} array
  * @returns first element of the array
  */
-function getFirstElement(array) {}
+function getFirstElement(array) {
+    return array[0];
+}
