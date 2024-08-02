@@ -2,6 +2,7 @@
 
 body {
   background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
 }
 
 .testimonial-card {
@@ -11,6 +12,26 @@ body {
   padding: 20px;
   width: 400px;
   /* Add styles below this comment */
+  margin: 20px auto;
+  text-align: center;
 }
 
 /* Create new selector rule sets below: */
+h1 {
+  text-align: center;
+}
+
+.testimonial-card .quote {
+  color: #333;
+  font-style: italic;
+}
+
+.testimonial-card .author {
+  color: #333;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.testimonial-card .title {
+  color: #777;
+}

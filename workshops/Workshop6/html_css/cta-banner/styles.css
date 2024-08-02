@@ -20,3 +20,17 @@ body {
 }
 
 /* Create new CSS Rule Sets below */
+.cta-banner button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #007bff;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-banner button:hover {
+  color: white;
+  background-color: #0056b3;
+}
