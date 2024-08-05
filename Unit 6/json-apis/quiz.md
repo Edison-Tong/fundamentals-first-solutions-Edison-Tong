@@ -2,33 +2,33 @@
 
 1. **What does API stand for?**
 
-    - A. Application Programming Interface
-    - B. Applied Programming Interface
-    - C. Application Processing Interface
-    - D. Applied Processing Interface
+   - A. Application Programming Interface
+   - B. Applied Programming Interface
+   - C. Application Processing Interface
+   - D. Applied Processing Interface
 
-    [Replace with answer]
+   - A. Application Programming Interface
 
 2. **True or False: JSON stands for JavaScript Object Notation.**
 
-    - [Replace with answer]
+   True
 
 3. **In JSON, how are key-value pairs separated?**
 
-    - A. Semicolon
-    - B. Comma
-    - C. Colon
-    - D. Period
+   - A. Semicolon
+   - B. Comma
+   - C. Colon
+   - D. Period
 
-    [Replace with answer]
+   - C. Colon
 
 4. **True or False: The `$.getJSON()` method makes an API Call.**
 
-    - [Replace with answer]
+   True
 
 5. In your own words, describe what "asynchronous" means.
 
-    - [Replace with answer]
+   asynchronous code can run simultaneously meaning one block of code can execute even though previous blocks of code haven't finished yet.
 
 ## Tips:
 
@@ -44,7 +44,7 @@ let data = "Howdy";
 
 ```html
 <div>
-    <p>This is text content</p>
+  <p>This is text content</p>
 </div>
 ```
 
@@ -52,6 +52,6 @@ let data = "Howdy";
 
 ```css
 div {
-    width: 100%;
+  width: 100%;
 }
 ```
