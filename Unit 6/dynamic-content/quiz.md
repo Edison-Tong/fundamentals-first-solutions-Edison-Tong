@@ -3,7 +3,7 @@
 1. How would yoyu change the text of all elements with the `class` "example" to "Example Text"?
 
 ```javascript
-$(".example").attr("class", "Exmple-text");
+$(".example").text("Exmple-text");
 ```
 
 2. How do you change the text of an element with ID "header" to "Welcome"?
